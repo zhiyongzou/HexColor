@@ -1,0 +1,15 @@
+name: Run tests
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      run: xcodebuild test -project HexColorDemo/HexColorDemo.xcodeproj -scheme HexColorDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'name=iPhone 11'

@@ -1,0 +1,6 @@
+framework module Pods_HexColorDemoTests {
+  umbrella header "Pods-HexColorDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
