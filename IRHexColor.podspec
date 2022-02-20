@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IRHexColor"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.5"
   spec.summary      = "A convenient way to convert hex strings to UIColor or NSColor"
   spec.homepage     = "https://github.com/zhiyongzou/HexColor"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
